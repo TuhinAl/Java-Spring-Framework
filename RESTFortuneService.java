@@ -1,19 +1,14 @@
 package com.annotation.demo;
 
-
-
 import org.springframework.stereotype.Component;
 
 @Component
+public class RESTFortuneService implements FortuneService {
 
-public class HappyFortuneService implements FortuneService {
-
-	
-	
 	@Override
 	public String getFortune() {
-		
-		return "Hey Nothing";
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

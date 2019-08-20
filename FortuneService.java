@@ -1,7 +1,8 @@
-package dependencyAndInversionofControl;
+package com.annotation.demo;
 
 public interface FortuneService {
-	
-	public String getFortune();
 
+	public String getFortune();
+	
+	
 }
